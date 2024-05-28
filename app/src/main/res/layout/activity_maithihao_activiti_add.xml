@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="20dp"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/edt_ten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_edt"
+        android:padding="10dp"
+        android:text="Mai" />
+
+
+    <EditText
+        android:id="@+id/edt_que"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_edt"
+        android:padding="10dp"
+        android:text="Hà nội" />
+
+
+    <EditText
+        android:id="@+id/edt_gioitinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_edt"
+        android:padding="10dp"
+        android:text="Nam" />
+
+
+    <EditText
+        android:id="@+id/edt_chucvu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_edt"
+        android:padding="10dp"
+        android:text="Nhân viên" />
+
+
+    <EditText
+        android:id="@+id/edt_luong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_edt"
+        android:padding="10dp"
+        android:inputType="phone"
+        android:text="20000" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="16dp"
+        android:text="thêm">
+
+
+    </Button>
+</LinearLayout>
